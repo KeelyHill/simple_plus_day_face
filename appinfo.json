@@ -1,0 +1,30 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Keely Hill",
+    "longName": "Simple+Day Name",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/simple_plus_day_icon.png",
+                "menuIcon": true,
+                "name": "simple_plus_day_icon",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Simple+Day",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "2053de4d-83e6-402e-b44a-1b9bb9ff9690",
+    "versionLabel": "0.2",
+    "watchapp": {
+        "watchface": true
+    }
+}
