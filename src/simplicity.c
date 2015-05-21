@@ -6,6 +6,10 @@ static Layer *s_line_layer;
 
 #define FRONT_COLOR GColorWhite
 #define BACKGROUND_COLOR GColorBlack
+  
+// For black text on white background
+// #define FRONT_COLOR GColorBlack
+// #define BACKGROUND_COLOR GColorWhite
 
 static void line_layer_update_callback(Layer *layer, GContext* ctx) {
   graphics_context_set_fill_color(ctx, FRONT_COLOR);
