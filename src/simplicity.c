@@ -22,7 +22,7 @@ static void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
   static char s_date_text[] = "Month 00";
   static char s_day_text[] = "day";
 
-  strftime(s_date_text, sizeof(s_date_text), "%B%e", tick_time);
+  strftime(s_date_text, sizeof(s_date_text), "%b %e", tick_time);
   text_layer_set_text(s_date_layer, s_date_text);
   
   strftime(s_day_text, sizeof(s_day_text), "%a", tick_time);
